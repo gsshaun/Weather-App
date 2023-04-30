@@ -6,7 +6,7 @@ This is a React-based web application that displays the current weather and 5-da
 
 1. Clone the repository
 2. Install dependencies with `npm install`
-3. Create a `.env` file in the root directory and add your OpenWeatherMap API key as `OPENWEATHER_KEY=YOUR_API_KEY_HERE`
+3. Create a `.env` file in the root directory and add your OpenWeatherMap API key as `OPENWEATHER_KEY=YOUR_API_KEY_HERE` and GeoDB API Key as `X_RapidAPI_Key=YOUR_API_KEY_HERE`
 4. Start the application with `npm start`
 
 ## Usage
