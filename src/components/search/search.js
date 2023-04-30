@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AsyncPaginate } from "react-select-async-paginate";
-import {LOCATION_API_URL} from "../../const/api_const"
+import { OPTIONS, LOCATION_API_URL } from "../../const/api_const"
 
 const Search = ({onSearchChange}) => {
 
@@ -12,7 +12,7 @@ const Search = ({onSearchChange}) => {
     }
 
     const loadOption = (searchData) => {
-        return fetch(`${LOCATION_API_URL}?namePrefix=${searchData}`, process.env.OPTIONS)
+        return fetch(`${LOCATION_API_URL}?namePrefix=${searchData}`, {OPTIONS})
             .then(response => response.json())
             .then(response => {
                 return {

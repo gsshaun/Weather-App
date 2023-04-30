@@ -7,3 +7,12 @@ export const FIVE_DAYS_WEATHER_API_URL = "https://api.openweathermap.org/data/2.
 
 //Icon URL
 export const OPENWEATHER_ICON_URL = "http://openweathermap.org/img/wn/"
+
+// GeoDB Options
+export const OPTIONS = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': process.env.X_RapidAPI_Key,
+		'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
+	}
+};
